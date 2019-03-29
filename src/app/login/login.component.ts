@@ -23,6 +23,7 @@ export class LoginComponent {
       },
       err => {
         console.error(err)
+        alert('Usuario y Contraseña Incorrectos');
       }
     )
   }
